@@ -1,0 +1,6 @@
+- better error handling
+- incremental transfer
+- async file io?
+- track filtering
+- more advanced playlist filtering
+

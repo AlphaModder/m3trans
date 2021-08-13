@@ -1,0 +1,18 @@
+[package]
+name = "m3trans"
+version = "0.1.0"
+authors = ["AlphaModder"]
+edition = "2018"
+publish = false
+default-run = "m3trans"
+
+[dependencies]
+plist = "1.1.0"
+serde = { version = "1.0.126", features = ["derive"] }
+structopt = "0.3.21"
+percent-encoding = "2.1.0"
+m3u = "1.0.0"
+log = "0.4.14"
+simplelog = "0.10.0"
+glob = "0.3.0"
+path-slash = "0.1.4"
